@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    padding-top: 900px;
+    text-align: center;
+}
+
+.profile {
+    width: 150px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    height: 250px;
+    border-style: dashed;
+    border-color: #F1F8E9;
+    border: 1px border-radius:80px;
+    padding: 5px;
+}
+
+#about {
+    position: absolute;
+    overflow: hidden;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(209, 11, 128, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    height: 800px;
+    color: #FFFFFF;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.83;
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    font-size: 62px;
+    line-height: 1.2;
+    font-family: 'Lobster', cursive;
+    font-weight: 300;
+    font-variant: small-caps;
+    text-shadow: 2px 2px #F8BBD0;
+}
+
+#me {
+    font-size: 80px;
+    line-height: 1.2;
+    font-family: 'Lobster', cursive;
+    font-weight: 300;
+    font-variant: small-caps;
+    text-shadow: 2px 2px #F8BBD0;
+}
+
+#name {
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: cursive;
+}
+
+#favbooks {
+    padding: 50px;
+    text-align: center;
+    font-size: 42px;
+    background: linear-gradient(90deg, rgba(255, 252, 150, 1) 0%, rgba(245, 153, 13, 1) 35%, rgba(207, 255, 254, 1) 100%);
+    font-family: 'Coming Soon', cursive;
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+
+p {
+    max-width: 600px;
+    margin: 25px auto;
+    font-size: 20px;
+    line-height: 1.3;
+    color: white;
+    font-weight: bold;
+}
+
+.parallax-inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.menu {
+    font-family: serif;
+    position:fixed;
+    background:blanchedalmond;
+    top: 0px;
+    margin-top:0px;
+    width: 100%;
+    z-index:10;
+    cursor:pointer;
+}
+
+.links {
+    color:azure;
+    padding-left: 33px;
+    padding-right: 25px;
+    display: inline;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+.links:hover {
+    background-color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: 'Indie Flower', cursive;
+    font-weight: 300;
+    font-variant: small-caps;
+}
+
+#work {
+    padding: 50px;
+    text-align: center;
+    font-size: 42px;
+    background: linear-gradient(90deg, rgba(249, 196, 127, 1) 0%, rgba(245, 13, 95, 1) 35%, rgba(255, 173, 173, 1) 100%);
+    font-family: 'Coming Soon', cursive;
+}
+
+img {
+    transition: transform .2s;
+    width: 400px;
+}
+
+img:hover {
+    transform: scale(0.9);
+}
+
+.line {
+    background-color: black;
+    width: 70px;
+    height: 6px;
+    margin: 8px auto;
+}
+
+#inspiration {
+    padding: 50px;
+    text-align: center;
+    font-size: 42px;
+    background: linear-gradient(90deg, rgba(0, 73, 111, 1) 0%, rgba(0, 123, 214, 1) 35%, rgba(255, 242, 242, 1) 100%);
+    font-family: 'Coming Soon', cursive;
+}
+#contact{
+    background: crimson;
+}
+#contact iframe{
+    width: 100%;
+}
+.contact_1 h3{
+    display: inline;
+}
+.contact_1 a{
+    color:whitesmoke;
+    text-shadow: none;
+}
